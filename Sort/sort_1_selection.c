@@ -1,4 +1,5 @@
 //Selection Sort 선택 정렬 : 나머지 중 가장 작은 수를 맨 앞에 놓기
+//O(N^2)
 
 include <stdio.h>
 int main(){
