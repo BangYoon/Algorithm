@@ -12,7 +12,7 @@ void quick(int* arr, int start, int end) {
 	j = end;//pivot보다 작은수, 오른쪽부터
 
 	while (i <= j) {
-		while (i <= end && arr[i] <= arr[pivot])
+		while (i <= end && arr[i] <= arr[pivot]) //화살표 방향만 바꾸면 내림차순~~
 			i++;
 		while (j > start && arr[j] >= arr[pivot])
 			j--;
