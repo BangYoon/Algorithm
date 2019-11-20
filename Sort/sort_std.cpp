@@ -1,6 +1,6 @@
 #include<iostream>
-#include<algorithm> // sort 알고리즘 들어있음
-#include<string> // '<<' 연산자 들어있음
+#include<algorithm> // sort algorithm
+#include<string> // '<<' operator
 
 using namespace std;
 
@@ -13,7 +13,7 @@ public:
 		this->score = score;
 	}
 
-	//점수가 높은 순서로 정렬 ('<' 이거면 낮은 순서)
+	//점수가 높은 순서로 정렬 ('<' 낮은 순서)
 	bool operator <(Student &student) {
 		return this->score > student.score;
 	}
@@ -33,7 +33,7 @@ int main() {
 
 	sort(students, students + 4); 
 	for (int i = 0; i < 4; i++) {
-		// printf("%s ", students[i].name);
+		// printf("%s ", students[i].name); // Why does it show garbage value?
 		cout << students[i].name;
 		cout << students[i].score << ' ';
 	}
