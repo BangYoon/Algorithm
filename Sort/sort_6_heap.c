@@ -1,4 +1,4 @@
-// Heap Sort 힙 정렬 : Heapify Algorithm 사용 (특정 노드의 자식이 최대 힙 만족하는지 반복적으로 확인)
+// Heap Sort 힙 정렬 : 상향식 Heapify Algorithm 사용 (특정 노드의 자식이 최대 힙 만족하는지 반복적으로 확인)
 // O(N * logN)
 
 #include<stdio.h>
